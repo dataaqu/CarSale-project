@@ -1,0 +1,163 @@
+.header {
+    width: 100%;
+    background-color: rgba(7, 7, 7, 0.977);
+  
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: var(--z-fixed);
+  }
+  
+  .nav {
+    height: var(--header-height);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  
+  
+  .nav-list {
+    display: flex;
+  
+  }
+  
+  .nav-logo,
+  .burger-menu {
+    color: var(--title-color);
+    display: inline-flex;
+    font-size: 1.5rem;
+  }
+  
+  .nav-logo {
+    align-items: center;
+    column-gap: .25rem;
+    font-weight: var(--font-medium);
+    transition: .3s;
+  
+  }
+  
+  .nav-logo i {
+    font-size: 1.5rem;
+  
+  }
+  
+  
+  
+  .nav-logo:hover {
+    color: var(--first-color);
+    text-shadow: 0 0 2px #08915f, 0 0 1px #08915f;
+  
+  }
+  
+  .burger-menu {
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  
+  
+  @media screen and (max-width: 767px) {
+    .nav-menu {
+      position: fixed;
+      background-color: rgba(255, 255, 255, 0.1);
+      top: 0;
+      right: -100%;
+      width: 100%;
+      height: 100%;
+      backdrop-filter: blur(90px);
+  
+    }
+  
+    .btn-neon {
+      height: 2rem;
+    }
+  
+    .home-img {
+      width: 20rem;
+    }
+  
+  }
+  
+  .nav-list {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    row-gap: 3rem;
+    padding-top: 7rem;
+  }
+  
+  .nav-link {
+    text-transform: uppercase;
+    color: var(--title-color);
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-medium);
+    transition: .3s;
+  }
+  
+  
+  .nav-link:hover {
+    color: var(--first-color);
+  }
+  
+  .nav-close {
+    font-size: 2rem;
+    color: var(--white-color);
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+  }
+  
+  .btn {
+    display: flex;
+    padding-top: .5rem;
+    justify-content: center;
+  }
+  
+  .btn-neon {
+    color: #08915f;
+    font-size: var(--h3-font-size);
+    display: flex;
+    justify-content: space-around;
+    text-transform: uppercase;
+    height: 2.3rem;
+    box-sizing: inherit;
+    transition: all 0.6s ease;
+    font-weight: var(--font-medium);
+    border: 3px solid #08915f;
+    border-radius: 100px;
+    padding: .2rem 1.2rem;
+    cursor: pointer;
+    background-color: transparent;
+  }
+  
+  .btn-neon:hover {
+    background-color: #08915f;
+    color: #000;
+    box-shadow: 0 0 50px #08915f, 0 0 21px #08915f;
+  }
+  
+  .fill {
+    background-color: #08915f;
+    color: #000;
+  }
+  
+  .fill:hover {
+    background-color: #000;
+    color: #08915f;
+    box-shadow: 0 0 21px 0 #08915f inset, 0 0 50px 0;
+    text-shadow: 0 0 3px #08915f, 0 0 2px #08915f;
+  }
+  
+  
+  
+  
+  
+ 
+  
+
+  
+  
+  
+
+  

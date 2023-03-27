@@ -1,0 +1,48 @@
+.close {
+    position: absolute;
+    top: 10%;
+    right: 55%;
+    cursor: pointer;
+    visibility: hidden;
+    
+  }
+
+  .filter {
+    position: absolute;
+    top: 40%;
+    right: 97%;
+    cursor: pointer;
+    
+  }
+
+  .close i,
+  .filter i {
+    font-size: 3rem;
+    color: var(--first-color)
+
+  }
+
+  
+  
+    .filter-menu {
+      position: absolute;
+      background-color: rgba(255, 255, 255, 0.1);
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      backdrop-filter: blur(90px);
+      border-right: 3px solid var(--first-color);
+      transition: .5s;
+    }
+   
+    .show {
+      position: absolute;
+      background-color: rgba(255, 255, 255, 0.1);
+      top: 0;
+      left: -50%;
+      width: 100%;
+      height: 100%;
+      backdrop-filter: blur(90px);
+      transition: .5s;
+    }

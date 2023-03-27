@@ -1,0 +1,329 @@
+@media screen and (min-width: 767px) {
+  .section {
+    padding: 7rem 0 2rem;
+  }
+
+  .burger-menu,
+  .nav-close {
+    display: none;
+  }
+
+  .nav-list {
+    flex-direction: row;
+    column-gap: 3rem;
+    padding-top: 0;
+  }
+
+  .nav-link {
+    text-transform: uppercase;
+    color: var(--title-color);
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-medium);
+    transition: .3s;
+  }
+
+  .btn-neon {
+    text-transform: uppercase;
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-medium);
+    transition: .3s;
+
+
+  }
+}
+
+
+@media screen and (max-width: 1024px) {
+  .nav-link {
+    text-transform: uppercase;
+    color: var(--title-color);
+    font-size: 1rem;
+    font-weight: var(--font-medium);
+    transition: .7s;
+  }
+
+  .btn-neon {
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: var(--font-medium);
+    transition: .7s;
+    height: 2rem;
+  }
+
+  .nav-logo,
+  .nav-logo i {
+    font-size: 1rem;
+  }
+
+  .suggestion {
+    flex-direction: column;
+  }
+
+  .offer-bg {
+    height: 100%;
+  }
+
+
+
+}
+
+
+
+@media screen and (max-width: 1380px) {
+
+  .title-card,
+  .price
+    {
+    font-size: 1rem;
+  }
+
+
+
+
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+  .nav-link {
+    text-transform: uppercase;
+    color: var(--title-color);
+    font-size: 1rem;
+    font-weight: var(--font-medium);
+    transition: .7s;
+  }
+
+  .btn-neon {
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: var(--font-medium);
+    transition: .7s;
+    height: 2rem;
+  }
+
+  .nav-logo,
+  .nav-logo i {
+    font-size: 1rem;
+  }
+
+  .suggestion {
+    flex-direction: column;
+  }
+
+  .offer-bg {
+    height: 100%;
+  }
+
+  .about-us {
+    flex-direction: column;
+    margin-bottom: 2rem;
+
+  }
+
+  .box {
+    flex-direction: column;
+  }
+
+
+}
+
+
+
+@media screen and (max-width: 1380px) {
+
+  .title-card,
+  .price
+    {
+    font-size: 1rem;
+  }
+
+
+}
+
+
+
+@media screen and (max-width: 767px) {
+  .footer-container {
+    display: block;
+  }
+
+  .footer {
+    overflow: visible;
+
+  }
+
+  .footer-description {
+    visibility: hidden;
+  }
+}
+
+// filter open/close
+
+@media screen and (min-width: 767px) {
+  .section {
+    padding: 7rem 0 2rem;
+  }
+
+  .burger-menu,
+  .nav-close {
+    display: none;
+  }
+
+  .nav-list {
+    flex-direction: row;
+    column-gap: 3rem;
+    padding-top: 0;
+  }
+
+  .nav-link {
+    text-transform: uppercase;
+    color: var(--title-color);
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-medium);
+    transition: .3s;
+  }
+
+  .btn-neon {
+    text-transform: uppercase;
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-medium);
+    transition: .3s;
+
+
+  }
+}
+
+
+@media screen and (max-width: 1024px) {
+  .nav-link {
+    text-transform: uppercase;
+    color: var(--title-color);
+    font-size: 1rem;
+    font-weight: var(--font-medium);
+    transition: .7s;
+  }
+
+  .btn-neon {
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: var(--font-medium);
+    transition: .7s;
+    height: 2rem;
+  }
+
+  .nav-logo,
+  .nav-logo i {
+    font-size: 1rem;
+  }
+
+
+}
+
+
+
+@media screen and (max-width: 1380px) {
+
+  .title-card,
+  .price {
+    font-size: 1rem;
+  }
+
+
+}
+
+@media screen and (min-width: 767px) {
+  .section {
+    padding: 7rem 0 2rem;
+  }
+
+  .burger-menu,
+  .nav-close {
+    display: none;
+  }
+
+  .nav-list {
+    flex-direction: row;
+    column-gap: 3rem;
+    padding-top: 0;
+  }
+
+  .nav-link {
+    text-transform: uppercase;
+    color: var(--title-color);
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-medium);
+    transition: .3s;
+  }
+
+  .btn-neon {
+    text-transform: uppercase;
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-medium);
+    transition: .3s;
+
+
+  }
+}
+
+
+@media screen and (max-width: 1024px) {
+  .nav-link {
+    text-transform: uppercase;
+    color: var(--title-color);
+    font-size: 1rem;
+    font-weight: var(--font-medium);
+    transition: .7s;
+  }
+
+  .btn-neon {
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: var(--font-medium);
+    transition: .7s;
+    height: 2rem;
+  }
+
+  .nav-logo,
+  .nav-logo i {
+    font-size: 1rem;
+  }
+
+
+}
+
+
+
+@media screen and (max-width: 1380px) {
+
+  .title-card,
+  .price {
+    font-size: 1rem;
+  }
+
+
+}
+
+/////////////////////////////////////////
+
+@media screen and (max-width: 320px) {
+  .container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .home_data {
+    column-gap: 2rem;
+  }
+  .about__card {
+    width: 150px;
+  }
+  .offer__container {
+    grid-template-rows: max-content 180px;
+  }
+  .offer__img {
+    width: 340px;
+  }
+  .logos__container {
+    gap: 2.5rem;
+  }
+}

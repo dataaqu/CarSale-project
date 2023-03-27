@@ -1,0 +1,139 @@
+
+  
+  .active {
+    color: #068456
+  }
+  
+ 
+  .home {
+    position: relative;
+    overflow: hidden;
+    
+  
+  }
+  
+  .homeContainer {
+    position: relative;
+    padding-top: 2rem;
+    row-gap: 3rem;
+    animation: fadeIn 5s linear forwards;
+
+  
+  
+  }
+  
+  .home-data {
+    text-align: center;
+  }
+  
+  .home-title {
+    font-size: var(--h1-font-size);
+    margin-bottom: 1rem;
+  }
+  
+  .home-subtitle {
+    font-size: var(--h2-font-size);
+    margin-bottom: .25rem;
+  }
+  
+  .home-elec {
+    font-size: var(--h3-font-size);
+    font-weight: 400;
+    color: var(--text-color);
+    display: inline-flex;
+    align-items: center;
+    column-gap: .25rem;
+  }
+  
+  
+  .home-elec i {
+    color: var(--first-color);
+  }
+  
+  .home-img {
+    width: 30rem;
+    justify-self: center;
+    margin-top: 2rem;
+    animation: zoomIn 2.5s linear backwards
+  }
+  
+  .carimg {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .home-car {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 4rem;
+    margin-bottom: 2rem;
+  }
+  
+  .home-car-name {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--text-color-light);
+  }
+  
+  .home-car-data {
+    text-align: center;
+  }
+  
+  .home-elec i,
+  .home-car-data {
+    color: var(--first-color);
+    font-size: 1.3rem;
+  }
+  
+  .home-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 4rem;
+    margin-bottom: 2rem;
+  }
+  
+  
+  .home-button {
+    position: relative;
+    border: 2px solid #08915f;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    font-size: var(--small-font-size);
+    color: var(--white-color);
+    font-weight: var(--font-medium);
+    box-shadow: 0 0 50px #08915f, 0 0 21px #08915f;
+  }
+  
+  
+  .spot {
+    background-color: rgba(55, 74, 109, 0.5);
+    filter: blur(112px);
+    border-radius: 50%;
+  }
+  
+  .spotB {
+    width: 400px;
+    height: 400px;
+  }
+  
+  .spotL {
+    width: 300px;
+    height: 300px;
+  }
+  
+  .home .spotB,
+  .home .spotL {
+    position: absolute;
+  }
+  
+  .home .spotL {
+    right: -10rem;
+    bottom: 3rem;
+  }

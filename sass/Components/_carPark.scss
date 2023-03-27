@@ -1,0 +1,174 @@
+
+
+  .carPark-content{
+      
+    height: 100vh;
+    position: relative;
+    background-color: var(--container-color);
+
+}
+
+.carParkBody {
+  overflow: hidden;
+  position: relative;
+
+}
+
+.carParkTitle {
+
+  position: relative;
+  top: 12%;
+  left: 37%;
+  font-size: 2rem;
+  text-transform: uppercase
+}
+
+.carPark-list {
+
+  margin-top: 2rem;
+  display: flex;
+  width: 100%;
+  column-gap: 3rem;
+  height: 75vh;
+  justify-content: center;
+  
+
+
+}
+
+#carsPagination {
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.numbers {
+
+  width: 3rem;
+  height: 3rem;
+  font-family: 'Exo', sans-serif;
+  font-weight: 700;
+  border-style: none;
+  font-size: 1rem;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  cursor: pointer;
+  background-color: rgba(2, 37, 10, 0.212);
+  color: #08915f;
+  border-radius: 20px;
+  margin-left: 1rem;
+
+}
+
+.numbers:hover {
+  background-color: #08915f;
+  color: #000;
+  box-shadow: 0 0 50px #08915f, 0 0 21px #08915f;
+  transition: .4s;
+}
+
+
+.car-card {
+  margin-top: 10rem;
+  border-radius: 10px;
+  width: 25rem;
+  height: 30rem;
+  background-color: transparent;
+  text-align: center;
+
+}
+
+
+.car-img {
+  margin-left: 4rem;
+  width: 17rem;
+  height: 12rem;
+  transition: transform 0.7s ease;
+  transform: translateY(0px);
+
+}
+
+.car-img:hover {
+  transform: translateY(-20px);
+}
+
+.car-img img {
+  width: 100%;
+  height: auto;
+
+}
+
+.car-det {
+  color: white;
+  padding: .8rem;
+  height: 12rem;
+  transition: transform 0.7s ease-in;
+  transform: translateY(0px);
+
+}
+
+.car-det:hover {
+  background-color: #ecf2f09f;
+  color: rgb(0, 0, 0);
+  transition: .7s ease-in;
+  font-weight: 500;
+  border-radius: 30px;
+  transform: translateY(-10px);
+}
+
+.title {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+.description {
+  font-size: 0.8rem;
+  font-weight: 500;
+
+}
+
+.card-footer {
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+
+
+
+.buy {
+  margin-top: 1rem;
+  color: #08915f;
+  align-items: center;
+  height: 2.3rem;
+  box-sizing: inherit;
+  transition: all 0.6s ease;
+  font-size: 1rem;
+  font-family: var(--body-font);
+  font-weight: var(--font-medium);
+  border: 3px solid #08915f;
+  border-radius: 100px;
+  padding: .2rem 1.2rem;
+  cursor: pointer;
+  background-color: #08915f1b
+}
+
+.buy:hover {
+  background-color: #08915f;
+  color: #000;
+  box-shadow: 0 0 50px #08915f, 0 0 21px #08915f;
+}
+
+.brands {
+  visibility: hidden;
+}
+
+.price {
+  font-size: 1.2rem;
+  font-weight: 700;
+}

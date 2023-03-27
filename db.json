@@ -1,0 +1,200 @@
+{
+  "car": [
+    {
+      "id": 1,
+      "img": "../images/audi/AudiQ5.png",
+      "title": " Audi Q5",
+      "description": "The Audi Q5 is a series of compact luxury crossover SUVs produced by the German luxury car manufacturer Audi from 2008. The original first-generation (Typ 8R) model was the third member of the B8 family to be released after the Audi A5 and fourth-generation A4, all being based.",
+      "brand": "AUDI",
+      "price": "45000"
+    },
+    {
+      "id": 2,
+      "img": "../images/audi/audia7.png",
+      "title": "AUDI A7",
+      "description": "The Audi A7 is an executive luxury coupe car produced by Audi since 2010. A five-door liftback (also available as a three-box, four-door sedan in China since 2021), it features a sloping roofline with a steeply raked rear window and integrated trunk lid , and four frameless doors.",
+      "brand": "AUDI",
+      "price": "35000"
+    },
+    {
+      "id": 3,
+      "img": "../images/audi/audi1.png",
+      "title": "AUDI R8",
+      "description": "The Audi R8 is a mid-engine, 2-seater sports car, which uses Audi's trademark quattro permanent all-wheel drive system.It was introduced by the German car manufacturer Audi AG in 2006.The car is exclusively designed, developed, and manufactured by Audi AG's private subsidiary company.",
+      "brand": "AUDI",
+      "price": "143000"
+    },
+    {
+      "id": 4,
+      "img": "../images/audi/audi4.png",
+      "title": "AUDI TT",
+      "description": "The Audi TT is a 2-door production sports car made by Audi since 1998, and currently in its third generation. The first two generations were assembled by the Audi subsidiary Audi Hungaria Motor Kft. in Győr, Hungary, using bodyshells manufactured and painted at Audi's Ingolstadt plant and parts made.",
+      "brand": "AUDI",
+      "price": "98000"
+    },
+    {
+      "id": 5,
+      "img": "../images/audi/audi2.png",
+      "title": "AUDI R8",
+      "description": "The Audi R8 is a mid-engine, 2-seater sports car, which uses Audi's trademark quattro permanent all-wheel drive system.It was introduced by the German car manufacturer Audi AG in 2006.The car is exclusively designed, developed, and manufactured by Audi AG's private subsidiary company.",
+      "brand": "AUDI",
+      "price": "143000"
+    },
+    {
+      "id": 7,
+      "img": "../images/bmw/bmwm3.png",
+      "title": "BMW M5",
+      "description": "The BMW M5 is a high performance variant of the BMW 5 Series marketed under the BMW M sub-brand. It is considered an iconic vehicle in the sports sedan category.The majority of M5s have been produced in the sedan body style, but in some countries the M5 was also available as a wagon from 1992 to 1995 and from 2006 to 2010.",
+      "brand": "BMW",
+      "price": "75000"
+    },
+    {
+      "id": 6,
+      "img": "../images/bmw/bmw1.png",
+      "title": "BMW X6 M",
+      "description": "The BMW X6 is a mid-size luxury crossover SUV by German automaker BMW. The BMW X6 is the originator of the sports activity coupé (SAC), referencing its sloping rear roof design. It combines the attributes of an SUV (high ground clearance, all-wheel drive and all-weather ability, large wheels and tires) with the stance of a coupé",
+      "brand": "BMW",
+      "price": "112000"
+    },
+    {
+      "id": 8,
+      "img": "../images/bmw/bmw4.png",
+      "title": "BMW 3 Series",
+      "description": "The BMW 3 Series is a line of compact executive cars manufactured by the German automaker BMW since May 1975. It is the successor to the 02 Series and has been produced in seven different generations.The first generation of the 3 Series was only available as a 2-door saloon with the stance of a coupé.",
+      "brand": "BMW",
+      "price": "108000"
+    },
+    {
+      "id": 9,
+      "img": "../images/bmw/bmw3.png",
+      "title": "BMW i8",
+      "description": "The BMW i8 was a plug-in hybrid sports car developed by BMW. The i8 was part of BMW's electrified fleet and was marketed under the BMW i sub-brand. The production version of the BMW i8 was unveiled at the 2013 Frankfurt Motor Show and was released in Germany in June 2014. Deliveries to retail customers in the U.S. began in August 2014.",
+      "brand": "BMW",
+      "price": "147000"
+    },
+    {
+      "id": 10,
+      "img": "../images/bmw/bmwx6.png",
+      "title": "BMW X6",
+      "description": "The BMW X6 is a mid-size luxury crossover SUV by German automaker BMW. The BMW X6 is the originator of the sports activity coupé (SAC), referencing its sloping rear roof design. It combines the attributes of an SUV (high ground clearance, all-wheel drive and all-weather ability, large wheels and tires) with the stance of a coupé.",
+      "brand": "BMW",
+      "price": "85000"
+    },
+    {
+      "id": 11,
+      "img": "../images/lambo1.png",
+      "title": "LAMBORGHINI Aventador ",
+      "description": "The Lamborghini Aventador  is a mid-engine sportscar produced by the Italian automotive manufacturer Lamborghini. In keeping with Lamborghini tradition, the Aventador is named after a Spanish fighting bull that fought in Zaragoza, Aragón in 1993.The Aventador is the successor for the Murciélago and is made by hand in Sant'Agata Bolognese, Italy.",
+      "brand": "LAMBORGHINI",
+      "price": "240000"
+    },
+    {
+      "id": 12,
+      "img": "../images/porsche/macan.png",
+      "title": "PORSCHE Macan",
+      "description": "The Porsche Macan (Type 95B) is a high-performance five-door luxury crossover SUV produced by the German car manufacturer Porsche from 2014. It is built in Leipzig, Germany. The Macan range includes many variants, including the Macan, Macan S, Macan S Diesel, Macan GTS and the Macan Turbo.",
+      "brand": "PORSCHE",
+      "price": "118000"
+    },
+    {
+      "id": 13,
+      "img": "../images/porsche/panamera.png",
+      "title": "PORSCHE Panamera 4",
+      "description": "The Porsche Panamera is a mid/full-sized luxury car (E-segment/F-segment in Europe) manufactured by the German automobile manufacturer Porsche. It is front-engined and has a rear-wheel-drive layout, with all-wheel drive versions also available.",
+      "brand": "PORSCHE",
+      "price": "105000"
+    },
+    {
+      "id": 14,
+      "img": "../images/porsche/porsche911.png",
+      "title": "PORSCHE 911 Boxter",
+      "description": "The Porsche 911 (pronounced Nine Eleven or in German: Neunelfer) is a two-door 2+2 high performance rear-engined sports car introduced in September 1964 by Porsche AG of Stuttgart, Germany. It has a rear-mounted flat-six engine and originally a torsion bar suspension. The car has been continuously enhanced through the years but the basic concept has remained unchanged",
+      "brand": "PORSCHE",
+      "price": "95000"
+    },
+    {
+      "id": 15,
+      "img": "../images/porsche/tycanblack.png",
+      "title": "PORSCHE Tycan Turbo S",
+      "description": "The Taycan is the pure expression of a Porsche electric sports car. Striking proportions, timeless and instantly recognisable design, and a perfect blend of performance with everyday usability.The 2022 Porsche Taycan sedan isn't the perfect electric vehicle, but its combination of driving verve and performance stamina make it the most engaging one.",
+      "brand": "PORSCHE",
+      "price": "138000"
+    },
+    {
+      "id": 16,
+      "img": "../images/porsche/tycan1.png",
+      "title": "PORSCHE Tycan ",
+      "description": "The Taycan is the pure expression of a Porsche electric sports car. Striking proportions, timeless and instantly recognisable design, and a perfect blend of performance with everyday usability.The 2022 Porsche Taycan sedan isn't the perfect electric vehicle, but its combination of driving verve and performance stamina make it the most engaging one.",
+      "brand": "PORSCHE",
+      "price": "128000"
+    },
+    {
+      "id": 17,
+      "img": "../images/porsche/teslax.png",
+      "title": "TESLA Model X ",
+      "description": "The 2022 Tesla Model X is a prime example of the EV automakers' brand ethos. Quick, high-tech, and featuring a flashy gimmick in its Falcon-wing rear doors, it presents a unique-but-expensive proposition in the growing EV-crossover segment.The Model X comes standard with two electric motors.",
+      "brand": "TESLA",
+      "price": "78000"
+    },
+    {
+      "id": 18,
+      "img": "../images/porsche/tesla3.png",
+      "title": "TESLA Model S ",
+      "description": "Without it we wouldn't have the growing selection of electric vehicles we have today, yet the 2022 Tesla Model S remains one of the most compelling and desirable options in that growing market segment. It also earns a spot on our 2022 Editors' Choice list. With up to 412 miles of estimated driving range",
+      "brand": "TESLA",
+      "price": "82000"
+    }
+  ],
+  "users": [
+    {
+      "username": "datakaci",
+      "password": "data",
+      "id": 1
+    },
+    {
+      "username": "data",
+      "password": "data",
+      "id": 2
+    },
+    {
+      "username": "zaza",
+      "password": "zaza",
+      "id": 3
+    },
+    {
+      "username": "levana",
+      "password": "data",
+      "id": 4
+    },
+    {
+      "username": "leo",
+      "password": "leo",
+      "id": 5
+    },
+    {
+      "username": "data12",
+      "password": "data",
+      "id": 6
+    },
+    {
+      "username": "zura",
+      "password": "zura",
+      "id": 7
+    },
+    {
+      "username": "test1",
+      "password": "test",
+      "id": 8
+    },
+    {
+      "username": "test",
+      "password": "test",
+      "id": 9
+    },
+    {
+      "username": "user",
+      "password": "user",
+      "id": 10
+    }
+  ]
+}

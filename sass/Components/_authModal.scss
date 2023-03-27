@@ -1,0 +1,88 @@
+.auth-modal, .register-modal {
+      
+    background-color: rgb(46, 43, 43);
+    border-radius: 20px;
+    width: 30rem;
+    height: 25rem;
+    padding: 2rem;
+    left: 38%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    animation: zoomIn .3s linear both; }
+
+    .form-label {
+      font-weight: 500;
+    }
+
+.btn-close {
+color: #08915f;
+}
+
+.form-control {
+
+background-color: rgba(101, 97, 97, 0.386);
+width: 80%;
+
+}
+
+.btn-primary {
+color: #08915f;
+font-size: var(--h3-font-size);
+display: flex;
+justify-content: space-around;
+text-transform: uppercase;
+height: 2.3rem;
+box-sizing: inherit;
+font-weight: var(--font-medium);
+border: 3px solid #08915f;
+border-radius: 100px;
+padding: .2rem 1.2rem;
+cursor: pointer;
+background-color: transparent;
+}
+
+.btn-primary:hover {
+background-color: #08915f;
+color: #000;
+box-shadow: 0 0 50px #08915f, 0 0 21px #08915f;
+}
+  
+  .backdrop {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    top: 0;
+    left: 0;
+    z-index: 1;
+    visibility: hidden;
+    
+   }
+  
+  .btn-close {
+    position: absolute;
+    font-weight: 700;
+    top: 1rem;
+    right: 1rem; }
+  
+
+
+   .register-modal {
+      visibility: hidden; }
+
+   .auth-modal {
+        visibility: hidden; }
+ 
+  #error-message, #register-error-message {
+    display: none;
+    color: rgba(255, 0, 0, 0.598);
+    font-weight: 600; }
+  
+    #username{
+      font-size: var(--h1-font-size);
+      color: #08915f;
+      font-weight: 700;
+      margin-right: 1rem;
+      text-transform: uppercase;
+    }
